@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Cat of the Day",
+  "version": "1.0",
+  "description": "Opens a new tab with a designated link.",
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_title": "Open Link in New Tab",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
